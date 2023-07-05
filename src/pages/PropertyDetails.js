@@ -61,7 +61,7 @@ const PropertyDetails = () => {
               <img src={property.agent.image}></img>
             </div>
             <div>
-              <div className='font-bold text-lg'>{property.agent.name}</div>
+              <div className='font-bold text-lg'>Random Agent Name</div>
               <Link to='' className='text-violet-700 text-sm'>
                 View listings
               </Link>

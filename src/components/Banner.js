@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Image from '../assets/img/house-banner.png';
+import Image from '../assets/img/house.jpeg';
 import Search from '../components/Search';
 
 const Banner = () => {
@@ -18,7 +18,7 @@ const Banner = () => {
           </p>
         </div>
         <div className='hidden flex-1 lg:flex justify-end items-end'>
-          <img src={Image} alt='' />
+          <img src={Image} style={{ marginBottom: '10px' }} />
         </div>
       </div>
       <Search />
